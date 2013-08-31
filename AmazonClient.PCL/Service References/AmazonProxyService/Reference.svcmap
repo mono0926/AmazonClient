@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="cacb0ea8-9b96-4076-bdbb-96e0e14ac7f5" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://apps.mono-comp.com/AmazonProxyService2/Mono.Api.AmazonProxyService.AmazonService.svc/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service1.wsdl" MetadataType="Wsdl" ID="0ba7b217-8044-4890-bcd6-a8eff25711dc" SourceId="1" SourceUrl="http://apps.mono-comp.com/AmazonProxyService2/Mono.Api.AmazonProxyService.AmazonService.svc/mex" />
+    <MetadataFile FileName="service2.xsd" MetadataType="Schema" ID="4a0e3ba8-9630-45ee-99dc-5b51314ff993" SourceId="1" SourceUrl="http://apps.mono-comp.com/AmazonProxyService2/Mono.Api.AmazonProxyService.AmazonService.svc/mex" />
+    <MetadataFile FileName="service21.xsd" MetadataType="Schema" ID="c1a18a8e-7421-4415-9d7c-35a4020f5815" SourceId="1" SourceUrl="http://apps.mono-comp.com/AmazonProxyService2/Mono.Api.AmazonProxyService.AmazonService.svc/mex" />
+    <MetadataFile FileName="Mono.Api.AmazonProxyService1.xsd" MetadataType="Schema" ID="6c5c359e-f439-42fb-931d-080cf975e084" SourceId="1" SourceUrl="http://apps.mono-comp.com/AmazonProxyService2/Mono.Api.AmazonProxyService.AmazonService.svc/mex" />
+    <MetadataFile FileName="Mono.Api.AmazonApi1.xsd" MetadataType="Schema" ID="79ceead5-fef6-4507-8f71-c953d1fdeb10" SourceId="1" SourceUrl="http://apps.mono-comp.com/AmazonProxyService2/Mono.Api.AmazonProxyService.AmazonService.svc/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
